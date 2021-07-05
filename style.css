@@ -38,8 +38,8 @@ img {
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
-  --title-font: "Poppins", sans-serif;
-  --body-font: "DM Sans", sans-serif;
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
 }
 
 /*<><><><><><><><><>  BASE  <><><><><><><><><>  */
@@ -111,7 +111,6 @@ body {
 
 .section .title {
   margin-bottom: 1rem;
-  
 }
 
 .section .subtitle {
@@ -147,7 +146,6 @@ body {
 .logo {
   font: 700 1.31rem var(--title-font);
   /*color: var(--title-color);*/
-
 }
 
 .logo span {
@@ -182,7 +180,6 @@ nav ul li a.active {
 }
 
 nav ul li a::after {
-  
   content: '';
   width: 0%;
   height: 2px;
@@ -234,7 +231,7 @@ nav.show .menu ul {
 }
 
 nav.show ul.grid {
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 
 /*<><><><><><><><><>  TOGGLE MENU  <><><><><><><><><>  */
@@ -275,7 +272,7 @@ nav.show div.icon-close {
 }
 
 #home .image::before {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -323,7 +320,7 @@ nav.show div.icon-close {
 }
 
 #about .image::before {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -347,7 +344,6 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
-
 /*<><><><><><><><><>   PRODUCTS  <><><><><><><><><>  */
 #products {
   background: white;
@@ -362,7 +358,7 @@ nav.show div.icon-close {
 }
 
 #products .image::before {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -385,7 +381,6 @@ nav.show div.icon-close {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-
 
 /*<><><><><><><><><>  SERVICES  <><><><><><><><><>  */
 .cards.grid {
@@ -411,8 +406,6 @@ nav.show div.icon-close {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
-
-
 
 /*<><><><><><><><><>  AGENDAMENTOS  <><><><><><><><><>  */
 #schedules .cards.grid {
@@ -553,7 +546,7 @@ footer .brand p {
   margin-bottom: 0.75rem;
 }
 
-footer i   {
+footer i {
   font-size: 1.5rem;
   color: var(--text-color-light);
 }
@@ -572,21 +565,18 @@ footer .social a:hover {
   transform: translateY(-8px);
 }
 footer .horario p {
-
   display: block;
   margin-bottom: 1.5rem;
-  font-size: 0,5rem;
+  font-size: 0, 5rem;
   color: var(--text-color-light);
 }
- footer .horario h6{
-
+footer .horario h6 {
   display: block;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   color: var(--text-color-light);
- }
- 
-   
+}
+
 /*<><><><><><><><><>  BACK TO TOP  <><><><><><><><><>  */
 .back-to-top {
   background: var(--base-color);
@@ -623,13 +613,10 @@ footer .horario p {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
-  
 }
-
 
 /*<><><><><><><><><>  PRA TELAS COM TAMNHO 767 a 992  <><><><><><><><><>  */
 @media (min-width: 992px) {
-  
   .container {
     max-width: 992px;
     margin-left: auto;
@@ -638,7 +625,7 @@ footer .horario p {
   .section {
     padding: 8rem 0;
   }
-  
+
   /*<><><><><><><><><>  NAVIGATION  <><><><><><><><><>  */
   nav .menu {
     opacity: 1;
@@ -670,8 +657,6 @@ footer .horario p {
   main {
     margin-top: var(--header-height);
   }
-  
-
 }
 
 /*<><><><><><><><><>  PRA TELAS de 1023 a  1200 PX  <><><><><><><><><>  */
@@ -768,7 +753,6 @@ footer .horario p {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  
 
   /*<><><><><><><><><>  TESTIOMONIALS  <><><><><><><><><>  */
   #testimonials .container {
@@ -801,7 +785,6 @@ footer .horario p {
     font-size: 2.25rem;
   }
 }
-
 
 /*<><><><><><><><><>  PRA TELAS ACIMA DE 1200 PX  <><><><><><><><><>  */
 @media (min-width: 1200px) {
@@ -897,7 +880,6 @@ footer .horario p {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  
 
   /*<><><><><><><><><>  TESTIOMONIALS  <><><><><><><><><>  */
   #testimonials .container {
@@ -930,4 +912,3 @@ footer .horario p {
     font-size: 2.25rem;
   }
 }
-
