@@ -26,7 +26,7 @@ img {
   --hue: 360;
 
   /*<><><><><><><><><>  HSL MODE <><><><><><><><><>  */
-  --base-color: hsl(var(--hue) 367% 47%);
+  --base-color: hsl(var(--hue) 67% 47%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
@@ -410,24 +410,34 @@ nav.show div.icon-close {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
-/*<><><><><><><><><> CARDT SO PRA COLOCAR DOS ICONES UM DO LADO DO OUTRO NO MESMO PADRAO   <><><><><><><><><>  */
-.cardt {
+
+
+
+/*<><><><><><><><><>  AGENDAMENTOS  <><><><><><><><><>  */
+#schedules .cards.grid {
+  gap: 2.5rem;
+}
+
+#schedules .card {
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
 }
-.cardt i {
-  
-  margin-bottom: 1.5rem;
-  font-size: 5rem;
-  color: var(--base-color);
+
+#schedules .card i {
+  display: block;
+  margin-bottom: 0.625rem;
+  font-size: 1.875rem;
+  color: var(--base-color-second);
 }
-cardt .title {
+
+#schedules .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
 /*<><><><><><><><><>  TESTIMONIALS  <><><><><><><><><>  */
 #testimonials {
   background: white;
