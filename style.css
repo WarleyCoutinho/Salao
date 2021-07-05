@@ -182,7 +182,8 @@ nav ul li a.active {
 }
 
 nav ul li a::after {
-  content: "";
+  
+  content: '';
   width: 0%;
   height: 2px;
   background: var(--base-color);
@@ -233,7 +234,7 @@ nav.show .menu ul {
 }
 
 nav.show ul.grid {
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 /*<><><><><><><><><>  TOGGLE MENU  <><><><><><><><><>  */
